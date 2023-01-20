@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-image: url('imagens/background002.jpg');
+    height: 400px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    
+}
+
+section.branco{
+    background-color: white;
+    height: 300px;
+}
+
+section.branco > h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+section.branco> p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    min-width: 270px;
+    max-width: 1150px;
+}
+
+section.preto {
+    background-color:  #282e34;
+    color: white;
+    height: 300px;
+    width: 100%;
+    
+}
+
+section.preto > h2{
+    width: 100%;
+    text-align: center;
+    padding: 30px ;
+    
+    
+    
+}
+
+section.preto > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    min-width: 270px;
+    max-width: 1150px;
+    
+    
+}
+
+section.imagem {
+    height: 400px;
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+section.imagem > h2 {
+    color: white;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: green;
+    color: white;
+    padding: 10px;
+
+}
+
+footer > p{
+    text-align: center;
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
